@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel_list>
+   <pageinfo recordcount="8" pagecount="1" pageindex="1" />
+   <class id="3" Qid="3" classname="央视频道">
+      <channel Cid="3" id="49617" Qid="3" name="CCTV 1" epg="">
+         <tvlink link="http://sw.live.cntv.cn/cctv_p2p_hdcctv1.m3u8" source="m3u8-1" />
+         <tvlink link="http://hlslive1.cntv.wscdns.com/cache/1_/seg0/index.m3u8" source="m3u8-2" />
+      </channel>
+      <channel Cid="3" id="49618" Qid="3" name="CCTV 2" epg="">
+         <tvlink link="http://sw.live.cntv.cn/cctv_p2p_hdcctv2.m3u8" source="m3u8-1" />
+         <tvlink link="http://hlslive1.cntv.wscdns.com/cache/7_/seg0/index.m3u8" source="m3u8-2" />
+      </channel>
+      <channel Cid="3" id="49619" Qid="3" name="CCTV 3" epg="">
+         <tvlink link="http://sw.live.cntv.cn/cctv_p2p_hdcctv3.m3u8" source="m3u8-1" />
+         <tvlink link="http://hlslive1.cntv.wscdns.com/cache/8_/seg0/index.m3u8" source="m3u8-2" />
+      </channel>
+   </class>
+   <class id="4" Qid="4" classname="各省卫视">
+      <channel Cid="4" id="49620" Qid="4" name="湖南卫视" epg="">
+         <tvlink link="http://itv.hdpfans.com/ty/ts.php?tsid=803254" source="TS" />
+         <tvlink link="rtmp://topway.gqims.com/livestream/ed1b5ebee58bab31fb5e4e73440af492" source="RTMP" />
+      </channel>
+      <channel Cid="4" id="49621" Qid="4" name="江苏卫视" epg="">
+         <tvlink link="http://itv.hdpfans.com/ty/ts.php?tsid=815117" source="扬州测试" />
+         <tvlink link="http://itv.hdpfans.com/play?sinaid=45" source="新浪" />
+      </channel>
+   </class>
+   <class id="25" Qid="25" classname="四川节目">
+      <channel Cid="25" id="49623" Qid="25" name="成都新闻综合" epg="">
+         <tvlink link="http://itv.hdpfans.com/play?cdtvid=cdtv1" source="flv" />
+      </channel>
+      <channel Cid="25" id="49624" Qid="25" name="成都经济资讯" epg="">
+         <tvlink link="http://itv.hdpfans.com/play?cdtvid=cdtv2" source="flv" />
+      </channel>
+   </class>
+   <class id="35" Qid="35" classname="测试频道">
+      <channel Cid="35" id="50203" Qid="35" name="测试频道" epg="">
+         <tvlink link="http://itv.hdpfans.com/ty/ts.php?tsid=875296" source="源1" />
+      </channel>
+   </class>
+</channel_list>
